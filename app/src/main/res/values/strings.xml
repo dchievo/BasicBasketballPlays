@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basic Basketball Plays</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="plays">
+        <item>"Pick n' Roll"</item>
+        <item>"Pick n' Pop"</item>
+    </string-array>
+    <string name="title_activity_plays_list">List of Plays</string>
+</resources>
