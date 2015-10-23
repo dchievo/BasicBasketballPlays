@@ -27,7 +27,7 @@ public class PlaysAdapter extends BaseAdapter
     @Override
     public int getCount()
     {
-        return 0;
+        return mPlay.length;
     }
 
     @Override
@@ -49,8 +49,13 @@ public class PlaysAdapter extends BaseAdapter
         if (convertView == null)
         {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.content_plays_list, null);
-            holder = new ViewHolder() {
-            }
+            holder = new ViewHolder();
+
         }
+    }
+
+    private static class ViewHolder()
+    {
+
     }
 }
