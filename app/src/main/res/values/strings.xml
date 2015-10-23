@@ -9,4 +9,6 @@
         <item>"Pick n' Pop"</item>
     </string-array>
     <string name="title_activity_plays_list">List of Plays</string>
+    <string name="no_data">No data to display</string>
+    <string name="title_activity_show_play">Show Play</string>
 </resources>

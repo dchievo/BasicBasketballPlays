@@ -15,21 +15,27 @@ public class PlayBook
     {
         playBook = new ArrayList<>();
         play = new Play();
-
         play.setDetail("This is the pick and roll.");
         play.setName("Pick and Roll");
-        playBook.add(play);
+        playBook.add(0, play);
 
-        play.setDetail("This is the pick and pop.");
-        play.setName("Pick and pop");
-        playBook.add(play);
+        play = new Play();
+        play.setDetail("ABASFA");
+        play.setName("Pick wefasdf");
+        playBook.add(1, play);
 
-        play.setDetail("This is the backdoor cut.");
-        play.setName("Backdoor cut");
-        playBook.add(play);
+        play = new Play();
+        play.setDetail("This is asdfawjelfjas");
+        play.setName("Pick and Ro436246af");
+        playBook.add(2, play);
 
-        play.setDetail("Slashing slasher");
-        play.setName("Fake and Slash");
-        playBook.add(play);
+        play = new Play();
+        play.setDetail("This o;aijfa;iejsfa sdf.");
+        play.setName("Pick w83jlksjdlfj");
+        playBook.add(3, play);
+    }
+
+    public List<Play> getPlayBook() {
+        return playBook;
     }
 }

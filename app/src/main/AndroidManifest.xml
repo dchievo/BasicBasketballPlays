@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".initialLaunchPage"
+            android:name=".ui.initialLaunchPage"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PlaysList"
+            android:name=".ui.PlaysList"
             android:label="@string/title_activity_plays_list"
-            android:parentActivityName=".initialLaunchPage"
+            android:parentActivityName=".ui.initialLaunchPage"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.tenchichrono.basicbasketballplays.initialLaunchPage" />
+                android:value=".ui.initialLaunchPage" />
         </activity>
     </application>
 

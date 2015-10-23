@@ -52,4 +52,9 @@ public class Play {
 
         return play;
     }
+
+    public String toString()
+    {
+        return getName();
+    }
 }
