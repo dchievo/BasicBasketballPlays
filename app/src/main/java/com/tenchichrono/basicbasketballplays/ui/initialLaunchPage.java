@@ -16,14 +16,12 @@ public class initialLaunchPage extends Activity {
 
     @InjectView(R.id.chronoImageView) ImageView mImageView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_initial_launch_page);
-
-        String filePath = "C:\\Users\\dchi\\Pictures";
-        mImageView.setImage;
+/*        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.photo);
+        mImageView.setImageBitmap(bitmap);*/
         ButterKnife.inject(this);
 
     }
