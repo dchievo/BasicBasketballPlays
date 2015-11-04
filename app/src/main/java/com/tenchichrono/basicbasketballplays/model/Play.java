@@ -38,21 +38,6 @@ public class Play {
         mDetail = detail;
     }
 
-    public Play[] createPlays()
-    {
-        Play[] play = new Play[10];
-        play[0].setDetail("This play does this.");
-        play[0].setName("Pick and Roll");
-        play[1].setDetail("This play does that.");
-        play[1].setName("Pick and Pop");
-        play[2].setDetail("This play does nothing.");
-        play[2].setName("The nothing");
-        play[3].setDetail("This play is a back door cut while the dribbler lures the defense");
-        play[3].setName("Backdoor Cut");
-
-        return play;
-    }
-
     public String toString()
     {
         return getName();

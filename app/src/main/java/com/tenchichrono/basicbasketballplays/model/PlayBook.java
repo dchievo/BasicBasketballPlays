@@ -8,32 +8,49 @@ import java.util.List;
  */
 public class PlayBook
 {
-    private List<Play> playBook;
-    private Play play;
+    private List<Play> playBook = new ArrayList<>();
+    private Play mPlay;
 
     public PlayBook ()
     {
-        playBook = new ArrayList<>();
-        play = new Play();
-        play.setDetail("This is the pick and roll.");
-        play.setName("Pick and Roll");
-        playBook.add(0, play);
-
-        play = new Play();
-        play.setDetail("ABASFA");
-        play.setName("Pick wefasdf");
-        playBook.add(1, play);
-
-        play = new Play();
-        play.setDetail("This is asdfawjelfjas");
-        play.setName("Pick and Ro436246af");
-        playBook.add(2, play);
-
-        play = new Play();
-        play.setDetail("This o;aijfa;iejsfa sdf.");
-        play.setName("Pick w83jlksjdlfj");
-        playBook.add(3, play);
+        createPlayBook();
     }
+
+    private void createPlayBook()
+    {
+
+        mPlay = new Play();
+        mPlay.setDetail("This is a play about the pick and roll.");
+        mPlay.setName("Pick and Roll");
+        playBook.add(mPlay);
+
+        mPlay = new Play();
+        mPlay.setDetail("This is the play about pick and pop.");
+        mPlay.setName("Pick and Pop");
+        playBook.add(mPlay);
+
+        mPlay = new Play();
+        mPlay.setName("Pretend and slash.");
+        mPlay.setDetail("Fake doing something and then cut.");
+        playBook.add(mPlay);
+
+        mPlay = new Play();
+        mPlay.setName("Pretend and slash. 1");
+        mPlay.setDetail("Fake doing something and then cut.");
+        playBook.add(mPlay);
+
+        mPlay = new Play();
+        mPlay.setName("Pretend and slash 2.");
+        mPlay.setDetail("Fake doing something and then cut.");
+        playBook.add(mPlay);
+
+        mPlay = new Play();
+        mPlay.setName("Pretend and slash 3.");
+        mPlay.setDetail("Fake doing something and then cut.");
+        playBook.add(mPlay);
+
+    }
+
 
     public List<Play> getPlayBook() {
         return playBook;

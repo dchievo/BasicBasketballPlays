@@ -1,21 +1,11 @@
 package com.tenchichrono.basicbasketballplays.adapter;
 
-import android.content.Context;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-
-import com.tenchichrono.basicbasketballplays.R;
-import com.tenchichrono.basicbasketballplays.model.Play;
-
 /**
  * Created by dchi on 10/23/2015.
  */
-public class PlaysAdapter extends BaseAdapter
+public class PlaysAdapter //extends BaseAdapter
 {
+    /*
     private Context mContext;
     private Play[] mPlay;
 
@@ -54,8 +44,8 @@ public class PlaysAdapter extends BaseAdapter
         }
     }
 
-    private static class ViewHolder()
+/*    private static class ViewHolder()
     {
 
-    }
+    }*/
 }

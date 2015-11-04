@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.PlaysList"
+            android:name=".ui.MainPlaysMenu"
             android:label="@string/title_activity_plays_list"
             android:parentActivityName=".ui.initialLaunchPage"
             android:theme="@style/AppTheme.NoActionBar" >

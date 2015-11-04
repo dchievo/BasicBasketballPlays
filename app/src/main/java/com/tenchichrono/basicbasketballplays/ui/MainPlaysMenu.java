@@ -8,7 +8,7 @@ import com.tenchichrono.basicbasketballplays.R;
 import com.tenchichrono.basicbasketballplays.model.Play;
 import com.tenchichrono.basicbasketballplays.model.PlayBook;
 
-public class PlaysList extends ListActivity {
+public class MainPlaysMenu extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
